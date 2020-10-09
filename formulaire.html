@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<link rel="stylesheet" type="text/css" href="liste.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+	<meta charset="utf-8"/>
+	<title>Liste</title>
+</head>
+<body>
+	<header>
+	<div class="rectangleheader">
+		<div class="rectangleheader2">
+		<img src="logo.png" alt="polices-de-calligraphie" border="0"></a>
+	</div>
+		<strong><h1>Ajouter un article</h1></strong>
+	</div>
+	<nav class="wrapper">
+		<ul>
+			<li>
+				<a href="" title="Compte">Compte</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="#" title="Panier">Panier</a>
+						</li>
+						<li>
+							<a href="#" title="Achats">Achats</a>
+						</li>
+						<li>
+							<a href="#" title="Dons">Dons</a>
+						</li>
+					</ul>	
+				</li> 
+				<li>
+					<a href="liste.html" title="Acceuil">Acceuil</a>
+				</li>
+				<li>
+					<a href="#" title="Connexion">Connexion</a>
+					<ul class="sub-menu">
+						<li>
+							<a href="#" title="Login">Login</a>
+						</li>
+						<li>
+							<a href="#" title="Mot de passe oublié">Mot de passe oublié</a>
+						</li>
+						<li>
+						<a href="#" title="Créer un compte">Créer un compte</a>
+					</li>
+				</ul>	
+			</li>
+		</ul>
+	</nav>
+</header>	
+<main>
+<article class="article0">
+	<article class="article1">
+		<div class="contact-form">
+			<form class="form" id="contact-form" method="post">
+				<p class="bonjour">Bonjour ;)</p>
+		<br>
+			<label for="Catégorie"></label>
+		  	<select name="nom" required="required" class="form-control" placeholder="Catégorie"size="1"><option>Hygège<option>Alimentation<option>Matériel<option>Vétement</select>   
+		<br>
+			<label for="Nom"></label>
+			<input type="text" name="Nom" class="form-control" required placeholder="Nom de l'article" />			
+		<br>
+			<label for="Url"></label>
+			<input type="url" name="Url" placeholder="Lien de l'article" class="form-control" />
+     	<br>
+     		<label for="msg"></label>
+	        <textarea id="msg" placeholder="Description" class="form-control" name="user_message"></textarea>
+		<br>
+		<label for="Image"></label>
+			<input type="file" name="Image" class="form-control" placeholder="Image" />	
+   		   </form>	
+			<input type="submit" class="form-control submit" submit value="Valider">	
+	</div>
+    </article>
+</main>
+	<div class="slider">
+		<div class="slides">
+			<slide><img class="p1" src="pub1.jpg" alt="#"/></slide>
+			<slide><img  class="p2" src="pub2.jpg" alt="#"/></slide>
+		</div>
+	</div>
+<footer>
+	<h2>Contacter votre cigogne pour toute quesiton sur bébé. </h2>
+	<div class="rectanglefooter2">
+		<img class="logoimg2" src="logo.jpg" alt="logo"/>	
+	</div>
+</footer>
+</body>
+</html>
